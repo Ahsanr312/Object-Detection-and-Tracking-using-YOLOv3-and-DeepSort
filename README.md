@@ -16,4 +16,7 @@ This repository implements object detection and tracking using state-of-the-art 
   - Step 3: Run second cell to install all the requirements needed for this repository.
   - Step 4: Run third cell to setup NVIDIA driver for GPU
   - Step 5: Run fourth cell that basically converts YOLOv3 weights (darknet) to tensorflow format.
-  - Step 6: Run fifth cell that detects and tracks target objects using converted YOLOv3 weights and DeepSORT. 
+  - Step 6: Run fifth cell that detects and tracks target objects using converted YOLOv3 weights and DeepSORT.
+
+#### Important measures before Going onto Second Step
+- 
