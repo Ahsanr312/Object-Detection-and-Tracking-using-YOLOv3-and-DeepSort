@@ -38,3 +38,7 @@ This repository implements object detection and tracking using state-of-the-art 
 - Make sure you replace exact same classes in coco_classes.txt at model_data/ folder for which YOLOv3 is trained. 
 - Make sure you replace and use same anchor values in yolo_anchors.txt on which YOLOv3 is trained. 
 - Make sure you replace/edit yolo_anchors array in models.py file at yolov3_tf2/ folder with same anchor values used for training YOLOv3. Moreover, the array is divided by the network resolution value that maybe 416, 608, or any value used while training YOLOv3.
+
+#### FUTURE WORK
+- The Flow can be te-implemented by using other detection algorithms such as YOLOv4, YOLOv5, EfficientDet
+- Use other state-of-the-art object tracking algorithms. 
