@@ -1,7 +1,21 @@
 # Object-Detection-and-Tracking-using-YOLOv3-and-DeepSORT
-This repository implements object detection and tracking using state-of-the-art algorithms, that are, YOLOv3 and DeepSORT in street view imagery. All the computation required will be performed using Google Colab. Mainly, the process will involve two main steps: 
+This repository implements object detection and tracking using state-of-the-art algorithms, that are, YOLOv3 and DeepSORT in street view imagery. All the computation required will be performed using Google Colab. Mainly, the process will involve two main steps:
+
+### Original Repository: 
+
+### Yolov3 Paper: https://arxiv.org/abs/1804.02767
+
+### DeepSORT Paper: https://arxiv.org/abs/1703.07402
+
+### About Darknet framework: http://pjreddie.com/darknet/
+
 #### First: Train an Object Detector (YOLOv3) to detect target object
 - Follow my YOLOv3 object detection repository to train custom object detector https://github.com/Ahsanr312/Object-Detection-in-Satellite-Imagery-Using-YOLOv3-
+- In this repository our target of interest would be detection and tracking of cars in tough weather conditions using a sub-dataset from AAU RainSnow Traffic Surveillance Dataset available at https://www.kaggle.com/aalborguniversity/aau-rainsnow.
+- Training dataset: Contains 1200 images (80% dataset)
+- Validation dataset: Contains 300 images (20% dataset)
+- Test Videos: The system is tested on 10 videos with results available at  
+
 #### Second: Apply Tracker (DeepSORT) to trained YOLOv3 weights to perform tracking
 - Set up google drive:
   - Log in to your google account and go to google drive.
