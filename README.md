@@ -11,9 +11,9 @@ This repository implements object detection and tracking using state-of-the-art 
 
 #### First: Train an Object Detector (YOLOv3) to detect target object
 - Follow my YOLOv3 object detection repository to train custom object detector https://github.com/Ahsanr312/Object-Detection-in-Satellite-Imagery-Using-YOLOv3-
-- In this repository our target of interest would be detection and tracking of cars in tough weather conditions using a sub-dataset from AAU RainSnow Traffic Surveillance Dataset available at https://www.kaggle.com/aalborguniversity/aau-rainsnow.
-- Training dataset: Contains 1200 images (80% dataset)
-- Validation dataset: Contains 300 images (20% dataset)
+- In this repository our target of interest would be detection and tracking of cars in tough weather conditions using a sub-dataset from AAU RainSnow Traffic Surveillance Dataset is available at https://www.kaggle.com/aalborguniversity/aau-rainsnow.
+- Training dataset: Contains 240 images (80% dataset) and -- ground truth labels
+- Validation dataset: Contains 60 images (20% dataset) and -- ground truth labels
 - Test Videos: The system is tested on 10 videos with results available at  
 
 #### Second: Apply Tracker (DeepSORT) to trained YOLOv3 weights to perform tracking
