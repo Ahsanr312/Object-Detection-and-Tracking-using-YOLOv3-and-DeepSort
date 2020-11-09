@@ -39,7 +39,7 @@ This repository implements object detection and tracking using state-of-the-art 
 - Use other state-of-the-art object tracking algorithms.
 
 ### CREDITS:
-#### Original Repository: 
+#### Original Repository: https://github.com/theAIGuysCode/yolov3_deepsort
 
 #### Yolov3 Paper: https://arxiv.org/abs/1804.02767
 
