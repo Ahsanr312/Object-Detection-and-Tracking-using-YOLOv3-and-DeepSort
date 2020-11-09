@@ -20,7 +20,7 @@ This repository implements object detection and tracking using state-of-the-art 
   - Next, we need to choose GPU for our training. To do so, click on "Edit" and select "Notebook settings" and then choose "GPU" under Hardware accelerator option. 
   - Press "save" and you are good to go.
   - This notebook is created for testing object tracking in colab.
-  - Step 1: Place trained YOLOv3 weights in the weights folder at your google drive. Available at:  
+  - Step 1: Place trained YOLOv3 weights in the weights folder at your google drive. Available at: https://drive.google.com/drive/folders/1SfZFt1ch95o9TU-hLbMDuQyCB9xTqwuu?usp=sharing
   - Step 2: Run first cell in the Object_Tracking.ipynb notebook to check which GPU is assigned to you. 
   - Step 3: Run second cell to install all the requirements needed for this repository.
   - Step 4: Run third cell to setup NVIDIA driver for GPU
