@@ -45,4 +45,4 @@ This repository implements object detection and tracking using state-of-the-art 
 
 #### DeepSORT Paper: https://arxiv.org/abs/1703.07402
 
-#### About Darknet framework: http://pjreddie.com/darknet/
+#### Darknet framework: http://pjreddie.com/darknet/
